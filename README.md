@@ -1,5 +1,5 @@
 # Project Name:  
-NBA Player Comparison
+# NBA Player Comparison
 
 ## Description:  
 A web application used to compare past and present statistics of NBA players from 2008 to 2017.
