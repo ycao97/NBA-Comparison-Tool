@@ -1,7 +1,15 @@
-# NBA-Player-Comparison
-A web application that I and 3 other team members created to compare the statistics of up to 6 NBA players side-by-side.
+# Project Name: NBA Player Comparison
 
-Technologies used:
+## Description: 
+A web application used to compare past and present statistics of NBA players from 2008 to 2017.
+
+### Contributors:
+Mohammad Wahid, mowahid305@gmail.com 
+Michael Asamoah, mikeasam@comcast.net 
+Jae Yoon, jyoon2286@gmail.com 
+Yangyang Cao, ycao97@gmail.com
+
+### Technologies Used:
 JQuery (UI & server requests)
 Bootstrap (CSS styling)
 PHP (Server)
