@@ -10,4 +10,4 @@ This simple web application allows users to compare up to 6 NBA players in a sid
 
 3. Finally, click 'Get Result'  
 
-Results are automatically displayed at the bottom. Results display each player's statistics side-by-side so that the user can easily compare the statistics.
+_Results are automatically displayed at the bottom. Results display each player's statistics side-by-side so that the user can easily compare the statistics._
