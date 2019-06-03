@@ -6,19 +6,24 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> NBA Stat Tracker </title>
+        <title>NBA Player Comparison Tool</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="jquery-ui.css" />
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
 
     </head>
     <body>
        <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Player Comparison Finder</h1>
+                <nav class="navbar navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.php">
+                    <div class="logo-bg"><img src="img/logo.png" width="50" height="50" class="d-inline-block align-top logo" alt=""></div><span class="logo-text"> NBA Player Comparison Tool</span></a>
+                </nav>
 
                 <form action="" name="searchForm" id="searchForm" method="POST">
                 <div class="col-lg-8">
@@ -33,7 +38,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player1" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 1" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>
@@ -59,7 +64,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player2" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 2" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>
@@ -85,7 +90,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player3" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 3" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>
@@ -111,7 +116,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player4" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 4" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>
@@ -137,7 +142,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player5" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 5" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>
@@ -163,7 +168,7 @@
                         <tr>
                             <td>
                             <div class="form-group">
-                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="player6" />
+                                <input type="text" name="player[]" class="form-control playerTxt" placeholder="Player 6" />
                                 <input type="hidden" name="playerId[]" class="form-control playerId" value="0" />
                              </div>
                             </td>

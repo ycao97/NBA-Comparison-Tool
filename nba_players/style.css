@@ -82,7 +82,24 @@ h1{
 .logo {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  margin: auto;
+}
 
+.logo-text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2em;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.logo-bg {
+  background: rgb(20, 20, 30, 0.7);
+  padding: 0 5px 0;
+  display: inline-block;
+  height: 50px;
+  width: 60px;
+  border-left: 2px lightblue solid;
 }
 
 div.container-fluid {
