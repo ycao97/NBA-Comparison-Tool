@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+input:focus, button:focus, select:focus textarea, textarea:focus {
+    outline: 0px;
+    border-color: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+  color: white;
+  font-size: 2em;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.middle {
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.clearFix {
+    clear: both;
+}/* Reset Document */
+
+body {
+margin:0;
+padding:0;
+font-family: 'Roboto Condensed', sans-serif;
+font-size:13px;
+color:#202020;
+font-weight:400 !important;
+line-height:24px;
+background:#2b2b2b;
+text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    margin: 20px 0px 40px 0px;
+}
+
+.logo {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin: auto;
+}
+
+.logo-text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2em;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.logo-bg {
+  background: rgb(20, 20, 30, 0.7);
+  padding: 0 5px 0;
+  display: inline-block;
+  height: 50px;
+  width: 60px;
+  border-left: 2px lightblue solid;
+}
+
+div.container-fluid {
+  border-top: 8px solid black;
+}
+
+
+
+/* Autocomplete
+----------------------------------*/.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+  .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+  }
+
+    &.ui-state-hover, &.ui-state-active {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #0088cc;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      background-image: none;
+    }
+
+    .ui-menu .ui-menu-item :hover,
+.ui-menu .ui-menu-item div.ui-state-active {
+        margin: -1px;
+        background-color: cornflowerblue;
+        color:#fff;
+}
+
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+.playerResult{
+  border: 1px solid #000;
+  float: left;
+  margin: 5px 10px;
+  background-color: #464646;
+  color:#fff;
+  max-width: 200px;
+  width: 200px;
+  box-shadow: 7px 7px grey;
+border-radius: 5px;
+}
+
+.playerResult .Title{
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  height: 110px;
+}
+
+.player_content{
+  margin: 10px;
+}
+
+.player_content p{
+  margin: 10px;
+  line-height: 1.6;
+  text-align: left;
+  font-weight: bold;
+}
+
+.player_content span{
+  text-align: right;
+  font-weight: bold;
+  color:#fff;
+  display: block;
+    margin-top: -20px;
+}
